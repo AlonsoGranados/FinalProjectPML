@@ -164,9 +164,9 @@ class SACTrainer(TorchTrainer, LossFunction):
             alpha = self.log_alpha.exp()
         else:
             alpha_loss = 0
-            alpha = 0
+#             alpha = 0
         #Temperature Decay
-            # alpha = self.log_alpha
+            alpha = self.log_alpha
 
         q_new_actions = torch.min(
             self.qf1(obs, new_obs_actions),
