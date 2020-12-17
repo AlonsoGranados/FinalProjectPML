@@ -7,15 +7,10 @@ To install Rlkit follow the steps in: https://github.com/vitchyr/rlkit
 
 Once these environments are setup replace the files:
 
-batch_rl_algorthms.py in rlkit/rlkit/core/
-
-sac.py in rlkit/torch/sac/
-
-cliffwalking_env in gym-cliffwalking/gym_cliffwalking/envs/
+batch_rl_algorthms.py in rlkit/rlkit/core/, sac.py in rlkit/torch/sac/ and cliffwalking_env in gym-cliffwalking/gym_cliffwalking/envs/
 
 And include files:
-Adaptive_entropy.py in rlkit/examples/
-Q-learning.py in rlkit/examples/
+Adaptive_entropy.py in rlkit/examples/ and Q-learning.py in rlkit/examples/
 
 Additionally include the parameter use_automatic_entropy_tuning=False in the trainer arguments and uncomment the code in sac.py and batch_re_algorithms.
 
