@@ -78,7 +78,7 @@ class BatchRLAlgorithm(BaseRLAlgorithm, metaclass=abc.ABCMeta):
                     train_data = self.replay_buffer.random_batch(
                         self.batch_size)
                     self.trainer.train(train_data)
-                # self.trainer.log_alpha *= .99
+                self.trainer.log_alpha *= .99
                 # print(self.trainer._n_train_steps_total)
                 gt.stamp('training', unique=False)
                 self.training_mode(False)
