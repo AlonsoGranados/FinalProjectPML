@@ -6,8 +6,11 @@ To install Cliffwalking follow the steps in: https://github.com/caburu/gym-cliff
 To install Rlkit follow the steps in: https://github.com/vitchyr/rlkit
 
 Once these environments are setup replace the files:
+
 batch_rl_algorthms.py in rlkit/rlkit/core/
+
 sac.py in rlkit/torch/sac/
+
 cliffwalking_env in gym-cliffwalking/gym_cliffwalking/envs/
 
 And include files:
