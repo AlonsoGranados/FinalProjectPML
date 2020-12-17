@@ -12,7 +12,6 @@ batch_rl_algorthms.py in rlkit/rlkit/core/, sac.py in rlkit/torch/sac/ and cliff
 And include files:
 Adaptive_entropy.py in rlkit/examples/ and Q-learning.py in rlkit/examples/
 
-Additionally include the parameter use_automatic_entropy_tuning=False in the trainer arguments for rlkit/examples/sac.py and uncomment the code in previous mentioned files sac.py and batch_re_algorithms.
-
+Additionally include the parameter use_automatic_entropy_tuning=False in the trainer arguments for rlkit/examples/sac.py.
 Sidenote:
 The training for mujoco took about 8 hours per model in a GPU GEforce 1660 ti.
